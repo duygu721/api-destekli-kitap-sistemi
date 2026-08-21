@@ -39,7 +39,7 @@ public class deneme {
     }
     public static void veriCekVeKaydet() {
         try {
-            String apiUrl = "https://www.googleapis.com/books/v1/volumes?q=subject:classics&langRestrict=fr&maxResults=40";
+            String apiUrl = "....";
 
             URL url = new URL(apiUrl);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
